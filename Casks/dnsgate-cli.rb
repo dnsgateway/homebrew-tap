@@ -6,21 +6,21 @@ cask "dnsgate-cli" do
 
   on_macos do
     on_arm do
-      sha256 "d6b9a8d24b21f1a6759b85b5b7e8cea317ef0b32ce6f0cc6dfa2c510bd84b931"
+      sha256 "54f87bfd3f2ce9ddb6ae4c8b51e1218a61c63be351d706c9ded4f46dd58d1827"
       url "https://github.com/dnsgateway/dnsgate/releases/download/v#{version}/dnsgate-cli_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "287ae35030eb0645b390bd2dd9d13726754bf177b1b943fd08fdc03387bf8bed"
+      sha256 "9d591334868589a61546a0818cfcde69931261980be460bb966e65815ade57bb"
       url "https://github.com/dnsgateway/dnsgate/releases/download/v#{version}/dnsgate-cli_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c130c9a06b8f359ddfb207102901eb74e2c6508494eb7ae28749f3e7b794f1be"
+      sha256 "9f4f8acd368d6e84b97ad81a52b6b6a2f2438419c131f40166162d07b5487e9b"
       url "https://github.com/dnsgateway/dnsgate/releases/download/v#{version}/dnsgate-cli_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "600ddff7b3293b305acd398822d42291adaa34ce28bfc34227dd89a25140775c"
+      sha256 "002d593f564c58b01e85a8a5ee9e10f64ef92f5df1e63fbf9fcc6e3506fc9153"
       url "https://github.com/dnsgateway/dnsgate/releases/download/v#{version}/dnsgate-cli_linux_amd64.tar.gz"
     end
   end
